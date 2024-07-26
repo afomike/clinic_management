@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Details</title>
+</head>
+<body>
+    <h1>Patient Details</h1>
+    <p><strong>Name:</strong> {{ patient.name }}</p>
+    <p><strong>Age:</strong> {{ patient.age }}</p>
+    <p><strong>Gender:</strong> {{ patient.gender }}</p>
+    <p><strong>Blood Type:</strong> {{ patient.blood_type }}</p>
+    <p><strong>Medical Condition:</strong> {{ patient.medical_condition }}</p>
+    <p><strong>Date of Admission:</strong> {{ patient.date_of_admission }}</p>
+    <p><strong>Discharge Date:</strong> {{ patient.discharge_date }}</p>
+    <p><strong>Doctor:</strong> {{ patient.doctor.username }}</p>
+    <p><strong>Hospital:</strong> {{ patient.hospital }}</p>
+    <p><strong>Insurance Provider:</strong> {{ patient.insurance_provider }}</p>
+    <p><strong>Billing Amount:</strong> {{ patient.billing_amount }}</p>
+    <p><strong>Room Number:</strong> {{ patient.room_number }}</p>
+    <p><strong>Admission Type:</strong> {{ patient.admission_type }}</p>
+    <p><strong>Medication:</strong> {{ patient.medication }}</p>
+    <p><strong>Test Results:</strong> {{ patient.test_results }}</p>
+</body>
+</html>
